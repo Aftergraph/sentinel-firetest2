@@ -1,9 +1,0 @@
-name: ci
-on: [push]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    env:
-      API_KEY: proof-fake-value-123
-    steps:
-      - run: npm test
